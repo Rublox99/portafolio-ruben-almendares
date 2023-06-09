@@ -7,7 +7,7 @@ function App() {
   return (
     <div className= "container-root h-screen bg-gray-900">
 
-      <Header/>
+      <Header/> 
       <Body/>
       <Footer/>
 
