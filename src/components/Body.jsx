@@ -23,7 +23,7 @@ const Body = () => {
 
             <div className='w-3/12 flex flex-col justify-center'>
               <div className='flex flex-col border-x-2 border-x-red-600 border-dashed rounded-full'>
-                    <img src="src/graphics/personalContent/ej_fotoPersonal.jpeg" className=" rounded-full"/>
+                    <img src="/personalContent/ej_fotoPersonal.jpeg" className=" rounded-full"/>
               </div>
             </div>
         </div>
