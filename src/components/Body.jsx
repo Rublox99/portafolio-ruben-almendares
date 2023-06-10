@@ -49,7 +49,7 @@ const Body = () => {
         {/*RESUME OF PROJECTS*/}
         <Divisor/>
         <section className='flex flex-col'>
-          <span className='text-white uppercase mx-auto py-2 text-3xl'>Short Resume of my Projects</span>
+          <span className='text-white uppercase mx-auto text-3xl'>Short Resume of my Projects</span>
           <Tabs/>
         </section>
         
