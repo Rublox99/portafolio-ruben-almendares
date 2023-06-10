@@ -5,9 +5,9 @@ import Body from "./components/Body"
 function App() {
 
   return (
-    <div className= "container-root h-screen bg-gray-900">
+    <div className= "container-root h-full bg-gray-900">
 
-      <Header/> 
+      <Header/>
       <Body/>
       <Footer/>
 
