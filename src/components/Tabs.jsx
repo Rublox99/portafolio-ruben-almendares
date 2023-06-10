@@ -82,7 +82,7 @@ const Tabs = () => {
                 key={experiencia} className={({selected}) => classNames(
                   'w-full mx-1 hover:bg-red-500 hover:px-10 rounded-md transition-all',
                   selected
-                    && 'bg-red-900 rounded-md px-10'
+                    && 'bg-red-800 rounded-md px-10'
                 )}
               >
                 {experiencia}
