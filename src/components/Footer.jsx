@@ -7,7 +7,7 @@ const Footer = () => {
       <section className='flex flex-col justify-center w-2/6'>
           <label className='font-normal mx-auto'>I'm open to criticism for improvement</label>
           <textarea name="Comentario" id="idComentario" className='text-black rounded-md resize-none'></textarea>
-          <input type="button" value="Enviar" className='text-center mt-3 rounded-sm bg-red-700 cursor-pointer hover:bg-red-500 transition-all'/>
+          <input type="submit" value="Submit" className='text-center mt-3 rounded-sm bg-red-800 cursor-pointer hover:bg-red-500 transition-all uppercase'/>
       </section>
     </section>
   )
