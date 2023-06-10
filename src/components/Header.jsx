@@ -13,7 +13,7 @@ const Header = () => {
 
   useEffect( () => {
     if (posicionScrollY> 0){
-      console.log(posicionScrollY)
+      //console.log(posicionScrollY)
     }
   }, [posicionScrollY])
   //------------------------------------------
