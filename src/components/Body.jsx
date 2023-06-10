@@ -1,11 +1,13 @@
 import React from 'react'
+import Tabs from './Tabs'
+import Divisor from './Divisor'
 
 const Body = () => {
   return (
 
     <section className='h-5/6 bg-gray-900 my-16'>
 
-        <div className='flex px-5 py-24 justify-between mt-5'>
+        <div className='flex px-5 py-12 justify-between mt-5'>
 
             <div className="text-white px-20 text-5xl w-3/5 flex flex-col justify-center text-center">
 
@@ -20,15 +22,14 @@ const Body = () => {
             </div>
 
             <div className='w-3/12 flex flex-col justify-center'>
-              <div className='flex flex-col border-x-2 border-x-red-600 border-y-red-950 border-dashed rounded-full'>
+              <div className='flex flex-col border-x-2 border-x-red-600 border-dashed rounded-full'>
                     <img src="src/graphics/personalContent/ej_fotoPersonal.jpeg" className=" rounded-full"/>
               </div>
             </div>
         </div>
 
-        <div className="mt-5 h-2/5">
-
-        </div>
+        <Divisor/>
+        <Tabs/>
 
     </section>
   )
