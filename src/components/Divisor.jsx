@@ -4,7 +4,7 @@ import { Player } from "@lottiefiles/react-lottie-player"
 const Divisor = () => {
   return (
     <>
-      <Player src='webGraphics/divisorWaves.json' className='w-full' 
+      <Player src='webGraphics/divisorWaves.json' className='w-full pointer-events-none' 
       loop autoplay speed={0.1}/>
     </>
   )
