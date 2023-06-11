@@ -40,16 +40,27 @@ const Body = () => {
           </div>
           
           {/*Talking about me*/}
-          <div className='w-7/12 px-5 text-white text-justify'>
-            <p className='uppercase text-3xl'>About me</p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laborum magni distinctio, repudiandae consequatur quis voluptatum voluptatem? A eius vitae omnis aliquid reiciendis, molestiae voluptatum aliquam maxime consequatur reprehenderit perferendis!
+          <div className='w-7/12 text-white text-justify flex flex-col mx-auto'>
+            <p className='text-3xl'>About me</p>
+            <p className='w-10/12'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laborum magni distinctio, repudiandae
+            consequatur quis voluptatum voluptatem? A eius vitae omnis aliquid reiciendis, molestiae voluptatum aliquam
+            maxime consequatur reprehenderit perferendis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Tenetur laboriosam facilis vitae accusantium odit, alias corporis esse tempora officia perferendis eaque, 
+            repudiandae maxime aperiam sed? In, quia? Molestiae, mollitia vitae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus sit dolorem? Aliquam debitis 
+            nam atque, rerum at maxime autem odit ipsum omnis perferendis commodi fuga ratione, quaerat quod voluptatum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repellat assumenda repellendus quod voluptate
+            sed. Consequatur tempora veniam mollitia incidunt excepturi quia placeat cupiditate, accusamus deleniti neque
+            quas ad sequi!
+            </p>
           </div>
         </section>
 
         {/*RESUME OF PROJECTS*/}
         <Divisor/>
         <section className='flex flex-col'>
-          <span className='text-white uppercase mx-auto text-3xl text-center'>Short Resume of my Projects</span>
+          <span className='text-white mx-auto mb-2 text-3xl text-center'>Short resume of my projects</span>
           <Tabs/>
         </section>
         
