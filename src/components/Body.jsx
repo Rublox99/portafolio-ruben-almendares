@@ -5,17 +5,17 @@ import Divisor from './Divisor'
 const Body = () => {
   return (
 
-    <section className='h-5/6 bg-gray-900 my-16'>
+    <section className='h-5/6 bg-gray-900 py-16'>
 
         {/*HI!*/}
         <div className='flex px-5 py-12 justify-between mt-5'>
 
             {/*Who Am I*/}
-            <div className="text-white px-20 text-5xl w-8/12 flex flex-col justify-center text-justify">
+            <div className="text-white px-20 text-5xl w-8/12 flex flex-col justify-center">
 
-              ¡Hey!, I'm Ruben Almendares
+              <span className='text-left'>¡Hey!, I'm Ruben Almendares</span>
 
-              <div className="text-lg mt-5">
+              <div className="text-lg mt-5 text-justify">
                 Ingeniero en Sistemas con experiencia en el {""}
                 <span className='text-red-500 underline decoration-1'>Desarrollo Frontend</span> enfocado al diseño y desarrollo
                 de sitios web bajo los mejores estándares y mediante diversas tecnologías para asegurar excelentes y funcionales resultados.
@@ -36,7 +36,7 @@ const Body = () => {
         <section className='flex justify-between'>
 
           <div className='w-5/12'>
-
+          
           </div>
           
           {/*Talking about me*/}
@@ -49,7 +49,7 @@ const Body = () => {
         {/*RESUME OF PROJECTS*/}
         <Divisor/>
         <section className='flex flex-col'>
-          <span className='text-white uppercase mx-auto text-3xl'>Short Resume of my Projects</span>
+          <span className='text-white uppercase mx-auto text-3xl text-center'>Short Resume of my Projects</span>
           <Tabs/>
         </section>
         
