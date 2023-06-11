@@ -3,12 +3,13 @@ import React from 'react'
 /*bg-svg1 bg-center bg-cover*/
 const Footer = () => {
   return (
-    <section className='h-2/6 py-2 w-full bg-gray-900 text-white flex justify-center'>
-      <section className='flex flex-col justify-center w-2/6'>
-          <label className='font-normal mx-auto'>I'm open to criticism for improvement</label>
-          <textarea name="Comentario" id="idComentario" className='text-black rounded-md resize-none'></textarea>
-          <input type="submit" value="Submit" className='text-center mt-3 rounded-sm bg-red-800 cursor-pointer hover:bg-red-500 transition-all uppercase'/>
-      </section>
+    <section className='text-white p-1 w-full bg-red-800 flex justify-between mt-auto'>
+      <ul className='flex'>
+        <li className='mx-1 flex hover:invert transition-all duration-200'><img src="webGraphics/favicon-twitter.svg" className='mx-1 invert'/><a href="">Twitter</a></li>
+        <li className='mx-1 flex hover:invert transition-all duration-200'><img src="webGraphics/favicon-instagram.svg" className='mx-1 invert'/><a href="">Instagram</a></li>
+        <li className='mx-1 flex hover:invert transition-all duration-200'><img src="webGraphics/favicon-linkedin.svg" className='mx-1 invert'/><a href="">Linkedin</a></li>
+      </ul>
+      <div className='uppercase italic'>Tegucigalpa, Honduras</div>
     </section>
   )
 }
