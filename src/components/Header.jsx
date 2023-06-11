@@ -30,7 +30,7 @@ const Header = () => {
           <span className='w-2/6 text-xl normal-case left-0'>Made with React & Vite</span>
 
           <ul className='w-4/6 text-white uppercase flex justify-end'>
-            <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/home">Home</a></li>|
+            <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/">Home</a></li>|
             <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/myKnowledge">My knowledge </a></li>|
             <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/contactMe">¿How to contact me?</a></li>
           </ul>
