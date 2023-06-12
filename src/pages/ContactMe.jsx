@@ -17,7 +17,7 @@ const ContactMe = () => {
       <Header />
       <section className='text-white text-lg flex phone:flex-col justify-center m-auto h-full w-full'>
         {/*FORMULARIO DE CONTACTO*/}
-        <div className='flex flex-col w-1/4 phone:w-full py-28 phone:mt-32 phone:py-2 phone:px-5 mx-5 phone:mx-0'>
+        <div className='flex flex-col w-1/4 phone:w-full py-28 phone:mt-20 phone:py-2 phone:px-5 mx-5 phone:mx-0'>
           <label>Full name</label>
           <input type="text" id='nombreCompleto' className={classNames('my-1 px-1 text-base bg-transparent border-b border-white transition-all',
             'hover:bg-white hover:rounded-sm hover:border-black hover:text-black')}
