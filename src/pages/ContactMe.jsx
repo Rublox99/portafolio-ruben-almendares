@@ -35,7 +35,7 @@ const ContactMe = () => {
         </div>
 
         {/*MEDIOS DE CONTACTO*/}
-        <div className='text-white my-auto flex flex-col phone:text-center'>
+        <div className='text-white my-20 justify-center flex flex-col phone:text-center'>
           <label className='font-semibold text-lg'>You can contact me through my email:</label>
           <p className='text-sm'>camiloalmendarez47@gmail.com</p>
 
