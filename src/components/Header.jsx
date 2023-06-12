@@ -27,11 +27,11 @@ const Header = () => {
         
         <nav className= {(classNames("px-5 py-5 w-full text-white font-medium text-lg flex uppercase items-center fixed top-0 transition-all duration-500",
         movimiento ? classNames("bg-red-800") : classNames("bg-gray-900")))}>
-          <span className='w-2/6 text-xl normal-case left-0'>Made with React & Vite</span>
+          <span className='w-2/6 text-xl normal-case left-0 phone:hidden'>Made with React & Vite</span>
 
-          <ul className='w-4/6 text-white uppercase flex justify-end'>
-            <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/">Home</a></li>|
-            <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/myKnowledge">My knowledge </a></li>|
+          <ul className='w-4/6 text-white uppercase flex justify-end phone:justify-center phone:w-full phone:flex-col phone:text-center'>
+            <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/">Home</a></li><span className='phone:hidden'>|</span>
+            <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/myKnowledge">My knowledge </a></li><span className='phone:hidden'>|</span>
             <li className={movimiento ? classNames("mx-5 hover:text-gray-900 transition-all") : classNames("mx-5 hover:text-red-800 transition-all")}><a href="/contactMe">¿How to contact me?</a></li>
           </ul>
         </nav>
