@@ -13,11 +13,11 @@ const ContactMe = () => {
   const [msg, setMsg] = useState("");
 
   return (
-    <div className='bg-gray-900 flex flex-col h-screen'>
+    <div className='bg-gray-900 flex flex-col h-screen phone:h-full'>
       <Header />
-      <section className='text-white text-lg flex justify-center m-auto h-full w-full'>
+      <section className='text-white text-lg flex phone:flex-col justify-center m-auto h-full w-full'>
         {/*FORMULARIO DE CONTACTO*/}
-        <div className='flex flex-col w-1/4 py-28 mx-5'>
+        <div className='flex flex-col w-1/4 phone:w-full py-28 phone:mt-32 phone:py-2 phone:px-5 mx-5 phone:mx-0'>
           <label>Full name</label>
           <input type="text" id='nombreCompleto' className={classNames('my-1 px-1 text-base bg-transparent border-b border-white transition-all',
             'hover:bg-white hover:rounded-sm hover:border-black hover:text-black')}
@@ -35,15 +35,15 @@ const ContactMe = () => {
         </div>
 
         {/*MEDIOS DE CONTACTO*/}
-        <div className='text-white my-auto flex flex-col'>
+        <div className='text-white my-auto flex flex-col phone:text-center'>
           <label className='font-semibold text-lg'>You can contact me through my email:</label>
           <p className='text-sm'>camiloalmendarez47@gmail.com</p>
 
-          <label className='font-semibold text-lg'>By a phone call:</label>
+          <label className='font-semibold text-lg phone:mt-2'>By a phone call:</label>
           <p className='text-sm'>(+504) 96609963</p>
 
-          <label className='font-semibold text-lg'>My platforms:</label>
-          <ul className='flex justify-start mt-1'>
+          <label className='font-semibold text-lg phone:mt-2'>Or on my platforms:</label>
+          <ul className='flex justify-start mt-1 phone:justify-center phone:mb-5'>
             <li className='mr-7 flex hover:invert transition-all duration-200'><a href="https://github.com/Rublox99" className='my-auto'><img src="webGraphics/favicon-github.svg" className='invert'/></a></li>
             <li className='mr-7 flex hover:invert transition-all duration-200'><a href="https://t.me/rub_av" className='my-auto'><img src="webGraphics/favicon-telegram.svg" className='invert'/></a></li>
             <li className='flex hover:invert transition-all duration-200'><a href="https://www.linkedin.com/in/rubenalmendareshn/" className='my-auto'><img src="webGraphics/favicon-linkedin.svg" className='invert'/></a></li>
