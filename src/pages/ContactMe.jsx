@@ -13,7 +13,7 @@ const ContactMe = () => {
   const [msg, setMsg] = useState("");
 
   return (
-    <div className='bg-gray-900 flex flex-col h-screen phone:h-full'>
+    <div className='bg-gray-900 flex flex-col h-screen phone:h-screen'>
       <Header />
       <section className='text-white text-lg flex phone:flex-col justify-center m-auto h-full w-full'>
         {/*FORMULARIO DE CONTACTO*/}
@@ -50,6 +50,7 @@ const ContactMe = () => {
           </ul>
         </div>
       </section>
+      
       <Footer />
     </div>
   )
