@@ -74,7 +74,7 @@ const Tabs = () => {
 
   return (
     <>
-      <div className="w-9/12 h-2/3 sm:px-0 flex flex-col mx-auto">
+      <div className="w-9/12 phone:w-full phone:px-2 h-2/3 flex flex-col mx-auto">
         <Tab.Group>
           <Tab.List className="mb-1 p-1 w-full rounded-md bg-black text-white font-semibold flex justify-evenly">
             {Object.keys(experiencias).map( (experiencia) => (
@@ -82,7 +82,7 @@ const Tabs = () => {
                 key={experiencia} className={({selected}) => classNames(
                   'w-full mx-1 hover:bg-red-500 hover:px-10 rounded-md transition-all',
                   selected
-                    && 'bg-red-800 rounded-md px-10'
+                    && 'bg-red-800 rounded-md px-10 phone:px-0'
                 )}
               >
                 {experiencia}
