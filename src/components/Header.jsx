@@ -47,7 +47,7 @@ const Header = () => {
               navbar ? 
               classNames('w-full py-2 text-white uppercase flex justify-center flex-col mx-auto text-center bg-red-800 visible transition-all duration-100')
               :
-              classNames("flex-row text-center transition-all invisible opacity-0 ease-in duration-75"))}>
+              classNames("flex-row text-center transition-all invisible uppercase opacity-0 ease-in duration-75"))}>
               <li className="mx-5 active:font-bold transition-all duration-200"><a href="/">Home</a></li><span className='phone:hidden'>|</span>
               <li className="mx-5 active:font-bold transition-all duration-200"><a href="/myKnowledge">My knowledge </a></li><span className='phone:hidden'>|</span>
               <li className="mx-5 active:font-bold transition-all duration-200"><a href="/contactMe">¿How to contact me?</a></li>
