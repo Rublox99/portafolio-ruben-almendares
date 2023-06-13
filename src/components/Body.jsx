@@ -1,6 +1,7 @@
 import React from 'react'
 import Tabs from './Tabs'
 import Divisor from './Divisor'
+import { Player } from '@lottiefiles/react-lottie-player'
 
 const Body = () => {
   return (
@@ -8,12 +9,12 @@ const Body = () => {
     <section className='h-5/6 bg-gray-900 py-16'>
 
         {/*HI!*/}
-        <div className='flex px-5 py-12 justify-between mt-5'>
+        <div className='flex phone:flex-col px-5 pt-12 justify-between mt-5'>
 
             {/*Who Am I*/}
-            <div className="text-white px-20 text-5xl w-8/12 flex flex-col justify-center">
+            <div className="text-white px-20 phone:px-0 text-5xl w-8/12 phone:w-full flex flex-col justify-center">
 
-              <span className='text-left'>¡Hey!, I'm Ruben Almendares</span>
+              <span className='text-left phone:text-center'>¡Hey!, I'm Ruben Almendares</span>
 
               <div className="text-lg mt-5 text-justify">
                 Ingeniero en Sistemas con experiencia en el {""}
@@ -24,7 +25,7 @@ const Body = () => {
             </div>
 
             {/*Profile Pic*/}
-            <div className='w-3/12 flex flex-col mr-5 justify-center'>
+            <div className='w-3/12 phone:w-8/12 phone:mx-auto phone:my-16 flex flex-col mr-5 justify-center'>
               <div className='flex flex-col w-full border-x-2 border-x-red-600 border-dashed rounded-full'>
                     <img src="/personalContent/ej_fotoPersonal.jpeg" className=" rounded-full"/>
               </div>
@@ -33,16 +34,12 @@ const Body = () => {
 
         {/*ABOUT ME*/}
         <Divisor/>
-        <section className='flex justify-between'>
-
-          <div className='w-5/12'>
-          
-          </div>
+        <section className='flex phone:flex-col phone:px-4 justify-between'>
           
           {/*Talking about me*/}
-          <div className='w-7/12 text-white text-justify flex flex-col mx-auto'>
-            <p className='text-3xl'>About me</p>
-            <p className='w-10/12'>
+          <div className='w-7/12 phone:w-full -l phone:px-10 text-white text-justify flex flex-col mx-auto'>
+            <p className='text-3xl phone:text-center'>About me</p>
+            <p className='w-10/12 phone:w-full'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laborum magni distinctio, repudiandae
             consequatur quis voluptatum voluptatem? A eius vitae omnis aliquid reiciendis, molestiae voluptatum aliquam
             maxime consequatur reprehenderit perferendis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -55,6 +52,12 @@ const Body = () => {
             quas ad sequi!
             </p>
           </div>
+            
+          {/*Photo of myself*/}
+          <div className='hidden phone:flex phone:mx-auto phone:w-8/12 rounded-full'>
+            <img src='personalContent/aboutMe_anim.jpg' className='w-full pointer-events-none phone:py-20 rounded-full'/>
+          </div>
+
         </section>
 
         {/*RESUME OF PROJECTS*/}
