@@ -80,9 +80,9 @@ const Tabs = () => {
             {Object.keys(experiencias).map( (experiencia) => (
               <Tab
                 key={experiencia} className={({selected}) => classNames(
-                  'w-full mx-1 hover:bg-red-500 hover:px-10 rounded-md transition-all',
+                  'w-full mx-1 hover:bg-red-500 hover:px-5 rounded-md transition-all',
                   selected
-                    && 'bg-red-800 rounded-md px-10 phone:px-0'
+                    && 'bg-red-800 rounded-md px-5 phone:px-0'
                 )}
               >
                 {experiencia}
@@ -94,9 +94,9 @@ const Tabs = () => {
                 <Tab.Panel key={id} className={classNames("rounded-sm")}>
                   <ul>
                     {objetosCategoria.map( (objeto) => (
-                      <li key={objeto.id} className="text-white p-1 text-lg">
+                      <li key={objeto.id} className="text-white p-1 text-lg phone:text-base">
                         <span className="italic font-semibold">{objeto.nombreProyecto}</span>
-                        <ul className="text-gray-400 text-sm">
+                        <ul className="text-gray-400 text-sm phone:text-xs">
                           <li>{objeto.fechaCreacion} &middot; {objeto.tecnologiasUsadas}</li>
                         </ul>
                       </li>
