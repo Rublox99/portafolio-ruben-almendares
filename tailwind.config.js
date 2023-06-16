@@ -13,6 +13,7 @@ export default {
     screens: {
       'tablet': {'max': '1024px'}, //@media (max-width: 768px)
       'phone': {'max': '835px'},
+      'midWidth':{'raw': '(min-width:560px) and (max-width: 830px)'},
       'longHeight': {'raw': '(min-height: 720px)'}, //raw permite tener control total del media query
       'rotatedPhone': {'raw': '(min-width: 840px) and (max-height: 570px)'}
     }
