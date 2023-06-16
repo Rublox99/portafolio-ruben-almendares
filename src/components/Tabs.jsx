@@ -32,7 +32,7 @@ const Tabs = () => {
     "React.js": [
       {
         id: 1,
-        nombreProyecto: "Medical Appointment Tracker",
+        nombreProyecto: "Pacient Appointment Tracker",
         fechaCreacion: "2023: March",
         tecnologiasUsadas: "Used: React, Vite, Tailwind & LocalStorage"
       },
