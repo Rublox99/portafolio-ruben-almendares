@@ -8,7 +8,7 @@ const MyKnowledge = () => {
       id: 1,
       name: "Universidad Nacional Autónoma de Honduras",
       url: "personalContent/unah.webp",
-      descripcion: "Bachelor of Systems Engineering",
+      descripcion: "Bachelor of Computer Science Engineering",
       fecha: "2018-2023"
     },
     {
@@ -47,7 +47,7 @@ const MyKnowledge = () => {
       name: "Pacient Appointment Tracker",
       descripcion: "React app which permits to give  follow-up pacient registered through a interactive table",
       link: "https://ruben-citas-medicas.netlify.app",
-      tecnologias: "React, JS & LocalStorage"
+      tecnologias: "React, JS, Tailwind & LocalStorage"
     },
     {
       id: 4,
