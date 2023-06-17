@@ -39,7 +39,7 @@ const Body = () => {
                 </a>
               </div>
             </div>
-            <Player src="webGraphics/bg-bubbles.json" className='w-5/6 z-30 pointer-events-none hidden phone:flex relative bottom-80 right-12 midWidth:absolute midWidth:bottom-60' background="transparent" loop autoplay></Player>
+            <Player src="webGraphics/bg-bubbles.json" className='w-5/6 z-30 pointer-events-none hidden phone:flex absolute bottom-10 phoneHeight:bottom-36 right-12 midWidth:absolute midWidth:bottom-60' background="transparent" loop autoplay></Player>
         </div>
 
         {/*ABOUT ME*/}
